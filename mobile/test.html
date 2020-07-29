@@ -46,10 +46,15 @@
 <html>
 	<head>
 		<meta http-equiv="refresh" content="10;url=https://discord.gg/Va3ebgs" />
+		<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
 	</head>
 	<h1>
 	<p>Redirecting you in 10 Seconds to Discord</p>
 		
-<h3><p>Main Server</p><iframe src="https://discord.confighub.eu/widgetmain" width="400" height="600" allowtransparency="true" frameborder="0"></iframe></h3>
+<h3><p>Main Server</p><iframe src="https://discord.confighub.eu/widgetmain" onload="resizeIframe(this)"onload="resizeIframe(this)" allowtransparency="true" frameborder="0"></iframe></h3>
     
-<h2><p>Backup Server</p><iframe src="https://discord.confighub.eu/widgetbackup" width="400" height="600" allowtransparency="true" frameborder="0"></iframe></h2>
+<h2><p>Backup Server</p><iframe src="https://discord.confighub.eu/widgetbackup" onload="resizeIframe(this)" allowtransparency="true" frameborder="0"></iframe></h2>
